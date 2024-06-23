@@ -85,3 +85,6 @@ Running the Frontend:-
 npm run dev
 
 ````
+<div>
+  <pre>npm install cors cookie-parser dotenv mongoose express</pre>
+</div>
