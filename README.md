@@ -15,7 +15,7 @@ Ensure you have the following installed on your system:
 Create a `.env` file in the root directory of your project and include the following variables:
 
 ````env
-PORT=5000
+PORT=8000
 MONGODB_URI=your_mongodb_atlas_uri
 FRONTEND_URL=http://localhost:5173
 ````
