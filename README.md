@@ -26,15 +26,17 @@ Database Setup
 Create a new database in your MongoDB Atlas account named todolist.
 
 Install Dependencies:-
-
+```bash
 npm install cors cookie-parser dotenv mongoose express
-
+```
 Development Dependencies:-
+```bash
 npm install --save-dev nodemon
-
+```
 Running the Backend:-
+```bash
 npm run dev
-
+```
 # ToDo List Frontend Setup
 
 This is the frontend setup for a simple ToDo List application. The frontend is built using Vite, React, Tailwind CSS, and axios, with react-hook-form for form handling.
