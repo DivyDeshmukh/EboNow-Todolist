@@ -18,6 +18,7 @@ Create a `.env` file in the root directory of your project and include the follo
 PORT=5000
 MONGODB_URI=your_mongodb_atlas_uri
 FRONTEND_URL=http://localhost:5173
+````
 
 Replace your_mongodb_atlas_uri with the URI you get from your MongoDB Atlas account.
 
@@ -58,12 +59,15 @@ Navigate to Project Directory:-
 cd your-project-name
 
 Install Dependencies:-
+```bash
 npm install react-hook-form axios
+```
 
 Install and Configure Tailwind CSS:-
+```bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
-
+```
 Add the following paths to the content array in tailwind.config.js:
 module.exports = {
   content: [
@@ -82,9 +86,8 @@ Add Tailwind Directives:-
 @tailwind utilities;
 
 Running the Frontend:-
+```bash
 npm run dev
-
+```
 ````
-<div>
-  <pre>npm install cors cookie-parser dotenv mongoose express</pre>
-</div>
+
